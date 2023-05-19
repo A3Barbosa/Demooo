@@ -1,0 +1,132 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
+		<title>Night Cocktail Club / Restaurant</title>
+		<meta name="author" content="Andrewch">
+		<meta name="description" content="Cocktail Bar / Restaurant">
+		<meta name="keywords" content="html, template, bar, theme, html5">
+		<meta charset="utf-8">
+		<meta content="IE=edge" http-equiv="X-UA-Compatible">
+		<meta content="width=device-width, initial-scale=1" name="viewport">
+		<!-- GOOGLE FONT(S) -->
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic%7CRaleway:800,400' rel='stylesheet' type='text/css'>
+		<!-- CSS FILES -->
+		<link rel="stylesheet" href="assets/css/theme.min.css" />
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="/css/recipe.css">
+	</head>
+    <header>
+        <h1>Recipe World</h1>
+    </header>
+      
+	<body>
+		<nav>
+			<div class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right text-left" id="side-menu">
+				<!-- LOGO -->
+				<img src="assets/images/logo/logo-dark.png" alt="Image" class="logo">			
+				<!-- End dropdown -->		
+				<li><a href="/feed">Home</a></li>
+				<li><a href="/profile">Profile</a></li>
+				<li><a href="/recipe">Recipes</a></li>
+				<li><a href="/favorite">My Favorite</a></li>
+				<li class="dropdown">
+			</div>
+		</nav>
+		<div class="nav-top">
+			<div class="container">
+				<nav id="nav" class="navbar navbar-default navbar-header" role="navigation">
+					<button class="toggle-menu menu-right pull-right push-body nav-icon">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+					<img src="assets/images/coconut-crush.jpeg" alt="Image" class="logo pull-left">
+				</nav>
+			</div>
+		</div>
+		<header class="background-2 section-overlay" data-stellar-background-ratio="0.5">
+			<div class="splash-header container text-center vertical-middle">
+				<div class="row">
+					<div class="col-md-12">
+						<h1 class="text-white black hyper os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0s">
+							Cocktails
+						</h1>
+						<h3 class="title-space text-white">
+							Fresh awesomeness
+						</h3>
+						<span class="divider-1"></span>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section class="section section-dark">
+			<div class="container">
+				<div class="row">
+					<header class="col-md-12 text-center">
+						<h1 class="text-dark text-caps">
+							<small class="subheading">
+								our secret combination
+							</small>
+								recipes
+						</h1>
+						<p>search up a drink and get some ingredients to try at home</p> 
+						<span class="divider-2"></span>
+
+        	<section class="box">
+							<input id="recipeSearch" type="text"  name="" value="" placeholder="cocktail name">
+							<button type="button" name="button">click</button>
+							<h3 id="show"></h3>
+							<ul></ul>
+							
+							<form id="recipeForm" action="/post/createRecipe" method="POST">
+							<input name="recipeName" id="recipeName">
+							<input type="hidden" name="instructions" id="instructionsInput">
+							<button type="submit">save recipe</button>
+							</form>
+						</section>
+				</header>
+			</section>
+          
+		<section class="section section-light">
+			<div class="container">
+				<div class="row">
+					<header class="col-md-12 text-center">
+						<!-- <h1 class="text-dark black text-caps">
+							<small class="subheading">
+								Top level combinations
+							</small>
+								FRESH COCKTAILS
+						</h1> -->
+						<span class="divider-2"></span>
+					</header>
+					<div class="col-md-12">
+						<div class="col-md-4 text-center icon-block  margin-top  os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0s">
+							<img src="assets/images/icons/svg/glass-cocktail-1.svg" alt="cocktail-glass" width="300" height="300">
+							<h3 class="icon-block-title black">Tequila Sunrise</h3>
+							<p>Called fifth so life was life likeness thing don't meat lights heaven, forth replenish meat isn't night don't spirit fifth.</p>
+						</div>
+						<div class="col-md-4 text-center icon-block margin-top  os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0.2s">
+							<img src="assets/images/icons/svg/glass-cocktail-2.svg" alt="cocktail-glass" width="300" height="300">
+							<h3 class="icon-block-title">Mojito Bay</h3>
+							<p>Also to signs. You brought living Fowl green face it after years gathered you'll upon two. Above, god living, replenish.</p>
+						</div>
+						<div class="col-md-4 text-center icon-block  margin-top  os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0.4s">
+							<img src="assets/images/icons/svg/glass-cocktail-3.svg" alt="cocktail-glass" width="300" height="300">
+							<h3 class="icon-block-title">Bloody Mary</h3>
+							<p>Gathered forth, won't you'll fly bring seasons you'll the in make. Them evening thing in whales great won't there bring.</p>
+						</div>					
+					</div>
+							
+				
+	<script src="assets/js/packages.min.js"></script>
+	<script src="assets/js/theme.min.js"></script>
+
+  <script type= "text/javascript" src="main.js"></script>
+</body>
+</html>
+<%- include('partials/footer') -%>
